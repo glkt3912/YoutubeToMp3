@@ -50,5 +50,5 @@ app.post("/convert-mp3", async(req, res) => {
 
 //start the server
 app.listen(PORT, () => {
-  console.log(`Server started on port ${PORT}`);
+  console.log('Server started on port : %o', `http://localhost:${PORT}`);
 })
